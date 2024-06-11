@@ -32,7 +32,7 @@ const snacks = ["Peanuts", "Chips", "Candy", "Chocolate", "Popcorn", "Cookies", 
 const randomSnack = seniorITEM(snacks);
 console.log(randomSnack);                   // 'Chips'
 
-type Snacks = typeof snacks;
+type Snacks = (typeof snacks)[number];
 // It's okay With/Without a generic
 console.log(seniorITEM(snacks));            // 'Cookies'
 console.log(seniorITEM<Snacks>(snacks));    // 'Candy'
@@ -46,7 +46,7 @@ type Items = Item[];
 const items: Items = [/* ... */];
 
 console.log(seniorITEM(items));             // { key: "17", name: "Item 17", imgSrc: "https://picsum.photos/200" }
-console.log(seniorITEM<Items>(items));      // { key: "5", name: "Item 5", imgSrc: "https://picsum.photos/200" }
+console.log(seniorITEM<Item>(items));       // { key: "5", name: "Item 5", imgSrc: "https://picsum.photos/200" }
 ```
 
 ___
