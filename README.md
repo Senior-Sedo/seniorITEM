@@ -57,7 +57,7 @@ ___
 >   Made With Chocolate By Senior Sedo 😎
 >>  Be Chocolateful 💙😍
 >>
->>  **ssts** stands for senior-sedo-typescript 💙
+>>  **ssts** stands for **s**enior-**s**edo-**t**ype**s**cript 💙
 >>
 >>  So instead of ~~@senior-sedo-typescript/rand-item~~
 >>> `@ssts/item` for simplicity sake 😍

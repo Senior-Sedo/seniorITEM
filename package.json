@@ -8,7 +8,7 @@
   "homepage": "https://github.com/Senior-Sedo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Senior-Sedo/seniorITEM.git"
+    "url": "git+https://github.com/Senior-Sedo/seniorITEM.git"
   },
   "publishConfig": {
     "access": "public",
@@ -21,6 +21,7 @@
     "random",
     "item",
     "array",
+    "array-item",
     "random-array-item"
   ],
   "author": "Senior Sedo",
