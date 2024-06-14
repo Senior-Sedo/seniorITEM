@@ -45,6 +45,7 @@ type Item = {
 type Items = Item[];
 const items: Items = [/* ... */];
 
+console.log(seniorITEM([]));                // undefined
 console.log(seniorITEM(items));             // { key: "17", name: "Item 17", imgSrc: "https://picsum.photos/200" }
 console.log(seniorITEM<Item>(items));       // { key: "5", name: "Item 5", imgSrc: "https://picsum.photos/200" }
 ```
