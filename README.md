@@ -16,7 +16,7 @@ const randomItem = seniorITEM(["Item 1", "Item 2", "Item 3"]);
 ```
 
 ## Arguments
-> Returns a random item from an array
+> Returns a random item from an array or undefined if the array is empty
 
 | Order |  Parameter  |   Type   | Default  |
 | :---: | :---------: | :------: | :-------: |
